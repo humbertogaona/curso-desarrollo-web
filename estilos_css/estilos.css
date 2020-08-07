@@ -2,7 +2,47 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+ul{
+    text-align: right;
+    margin-right: 1em;
+}
+
+
+li{
+   list-style-type: none;
+   display: inline;
+   margin: 1em;
+}
+
+.logo{
+    background-color:#810000;
+}
+
+.cabecera{
+    background-color: #411f1f ;
+    color: #f5efef;
+    border: 1px solid #dddddd;
+    border-radius: 1em;
+}
+
+
+.cabecera a{
+    color:  #ffcb8e;
+    text-decoration: none;
+}
+
+.yo{
+    background-image: url("../imagenes/Cuauhtémoc-el-último-emperador-azteca.jpg");
+    background-color: #810000;
+    background-repeat: no-repeat;
+    background-size: 50% 8em;
+    background-position: right;
+    font-size: 1.5em;
+    margin: 0;
+
+}
+
+.yo,.portafolio, .empresa, .contacto, .footer{
+    border: 1px solid #dddddd;
+    border-radius: 1em;
 }

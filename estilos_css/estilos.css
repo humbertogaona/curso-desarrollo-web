@@ -1,35 +1,63 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dddddd;
+}
+
+.contenedor{
+    width: 90%;
+    margin : 0 auto;
 }
 
 ul{
-    text-align: right;
-    margin-right: 1em;
+margin: 0;
+padding: 0;
+list-style: none;
 }
 
-
-li{
-   list-style-type: none;
-   display: inline;
-   margin: 1em;
+figure{
+    margin: 0;
 }
 
 .logo{
-    background-color:#810000;
+    align-self: center;
 }
+
 
 .cabecera{
     background-color: #411f1f ;
-    color: #f5efef;
     border: 1px solid #dddddd;
     border-radius: 1em;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    height: 8em;
+}
+
+.menu{
+    height: inherit;
+}
+
+
+
+.cabecera ul{
+    display: flex;
+    height: inherit;
+}
+
+.cabecera ul li{
+    height: inherit;
 }
 
 
 .cabecera a{
     color:  #ffcb8e;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
 }
+
 
 .yo{
     background-image: url("../imagenes/Cuauhtémoc-el-último-emperador-azteca.jpg");
@@ -43,6 +71,7 @@ li{
 }
 
 .yo,.portafolio, .empresa, .contacto, .footer{
-    border: 1px solid #dddddd;
+    border: 1px solid #4b5d67;
     border-radius: 1em;
 }
+

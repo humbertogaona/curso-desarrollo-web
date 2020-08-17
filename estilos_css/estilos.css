@@ -24,11 +24,10 @@ figure{
 
 
 .cabecera{
-    background-color: #411f1f ;
-    border: 1px solid #dddddd;
-    border-radius: 1em;
+    background-color: #0a0a0a ;
     display: flex;
     padding: 1em;
+    margin-bottom: .1em;
     justify-content: space-between;
     height: 8em;
 }
@@ -59,19 +58,65 @@ figure{
 }
 
 
+
 .yo{
-    background-image: url("../imagenes/Cuauhtémoc-el-último-emperador-azteca.jpg");
-    background-color: #810000;
+    display: flex;
+    background-image: url("../imagenes/4055146.jpg");
+    background-color:#000000 ;
+    color: rgb(148, 148, 148);
     background-repeat: no-repeat;
-    background-size: 50% 8em;
+    background-size: 50% 9em;
     background-position: right;
     font-size: 1.5em;
-    margin: 0;
-
+    margin-bottom: .1em;
 }
 
-.yo,.portafolio, .empresa, .contacto, .footer{
-    border: 1px solid #4b5d67;
-    border-radius: 1em;
+.yo h1{
+    margin: .5em;
 }
+
+
+
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.musica, .empresa, .otro, .otromas{
+    box-sizing: border-box;
+    width: 50%;
+    background-color:#000000 ;
+    color: rgb(148, 148, 148);
+    border-bottom: whitesmoke .1em solid;
+    padding: .5em;
+}
+    
+.musica, .otro{
+    border-right: whitesmoke .1em solid;
+}
+
+
+
+.contacto{
+    display: flex;
+    padding: 1em;
+    margin-bottom: .1em;
+    background-color:#000000 ;
+    color: rgb(148, 148, 148);
+}
+
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#000000 ;
+    color: rgb(148, 148, 148);
+    
+}
+
+
+
+
+
+
+
 
